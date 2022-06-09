@@ -1,5 +1,5 @@
 #lang info
-(define collection #"sorawee-test")
+(define collection "sorawee-test")
 (define deps '("base"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define scribblings '(("scribblings/sorawee-test.scrbl" ())))
