@@ -18,7 +18,7 @@ jobs:
       - uses: Bogdanp/setup-racket@v1.8.1
         with:
           architecture: x86
-          distribution: full
+          distribution: minimal
           variant: ${{ matrix.racket-variant }}
           version: ${{ matrix.racket-version }}
       - name: Run stuff
